@@ -2,7 +2,12 @@
 <html>
 <title>Gase aus der Steckdose</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=0.75, maximum-scale=4.0, user-scalable=yes" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="white">
+<link rel="shortcut icon" href="logo.png" type="image/png">
+<link rel="icon" href="logo.png" type="image/png">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,8 +35,8 @@
  <div class="w3-bar w3-theme-d2 w3-left-align">
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Unser Team</a>
   <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Die Gefahr</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Unser Team</a>
   <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Unsere Preise</a>
   <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Kontaktiere uns</a>
   <!--<div class="w3-dropdown-hover w3-hide-small">
@@ -68,10 +73,10 @@
   <div class="w3-modal-content w3-card-4 w3-animate-top">
     <header class="w3-container w3-teal w3-display-container"> 
       <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
-      <h4>Info</h4>
+      <h4>Obacht</h4>
     </header>
     <div class="w3-container">
-      <p>Danke für Ihr Feedback...</p>
+      <p>Ja Sie hören richtig!!!</p>
     </div>
     <footer class="w3-container w3-teal">
       <button onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></button>
@@ -80,40 +85,13 @@
   </div>
 </div>
 
-<!-- Team Container -->
-<div class="w3-container w3-padding-64 w3-center" id="team">
-<h2>Unser Team</h2>
-<p>Unser erfahrenes Team an Experten:</p>
-
-<div class="w3-row"><br>
-
-<div class="w3-third">
-  <img src="images/Forscher_1.jpg" alt="Daniel" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Daniel Kleist</h3>
-  <p>Ingenieur für Luftmessungen</p>
-</div>
-
-<div class="w3-third">
-  <img src="images/Forscher_2.jpg" alt="Otto" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Otto Becker</h3>
-  <p>Ingenieur für analytische Auswertungen</p>
-</div>
-
-<div class="w3-third">
-  <img src="images/Forscher_3.jpg" alt="Johnny" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h3>Johnny Walker</h3>
-  <p>Ingenieur für Messungen</p>
-</div>
-
-</div>
-</div>
-
 <!-- Work Row -->
 <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
 
   <div class="w3-quarter" style="height: 100%;">
   <h2>Steckdosen - die lauernde Gefahr</h2>
-  <p>Bei unseren Messungen haben wir eine 1000-fach erhöhte Konzentration an bisher nicht nachweisbaren Gasen feststellen können!</p>
+  <p>Bei unseren Messungen haben wir eine stark erhöhte Konzentration an bisher nicht nachweisbaren Gasen feststellen können!</p>
+  <p>Wir legen die <a href="./Messungen.pdf">Messergebnisse</a> offen dar!</p>
   </div>
 
   <div class="w3-quarter" style="height: 100%;">
@@ -122,10 +100,10 @@
     <div class="w3-container">
       <h3>Unterirdisches Gasnetzwerk</h3>
       <h4></h4>
-      <p>Parteien mischen beeinflussbare Gase zusammen</p>
+      <p>Parteien mischen gefährliche Gase zusammen</p>
       <p>Diese werden ins Rohrnetzwerk eingeleitet</p>
-      <p>&nbsp; </p>
-      <p>&nbsp; </p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </p>
     </div>
   </div>
   </div>
@@ -136,9 +114,9 @@
     <div class="w3-container">
       <h3>Gase aus Steckdosen</h3>
       <h4>gelangen in öffentliche und private Räume</h4>
-      <p>erhöhte Konzentration des Gases neben Steckdosen</p>
-      <p>&nbsp; </p>
-      <p>&nbsp; </p>
+      <p>Erhöhte Konzentration des Gases neben Steckdosen</p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </p>
     </div>
   </div>
   </div>
@@ -148,13 +126,41 @@
     <img src="images/gehirn.jpg" alt="Mountains" style="width:100%">
     <div class="w3-container">
     <h3>Wirkung der Gase im Gehirn</h3>
-    <h4>Substanzen im Gas machen Menschen für politik beeinflussbarer</h4>
-    <p>Menschen lassen sich leichter beinflussen</p>
-    <p>wählen treu die Regierungspartei</p>
+    <h4>Substanzen im Gas machen Menschen für Politik beeinflussbarer</h4>
+    <p>Menschen lassen sich leichter beinflussen!</p>
+    <p>Wählen treu die Regierungspartei</p>
     </div>
     </div>
   </div>
 </div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+  <h2>Unser Team</h2>
+  <p>Unser erfahrenes Team an Experten:</p>
+  
+  <div class="w3-row"><br>
+  
+  <div class="w3-third">
+    <img src="images/Forscher_1.jpg" alt="Daniel" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Daniel Kleist</h3>
+    <p>Ingenieur für Luftmessungen</p>
+  </div>
+  
+  <div class="w3-third">
+    <img src="images/Forscher_2.jpg" alt="Otto" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Otto Becker</h3>
+    <p>Ingenieur für analytische Auswertungen</p>
+  </div>
+  
+  <div class="w3-third">
+    <img src="images/Forscher_3.jpg" alt="Johnny" style="width:45%" class="w3-circle w3-hover-opacity">
+    <h3>Johnny Walker</h3>
+    <p>Ingenieur für Messungen</p>
+  </div>
+  
+  </div>
+  </div>
 
 <!-- Container 
   <div class="w3-container" style="position:relative">
@@ -178,7 +184,7 @@
           <span class="w3-opacity">pro Stück</span>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> In den Warenkorb</button>
+          <button onclick="send_basket()" class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> In den Warenkorb</button>
         </li>
       </ul>
     </div>
@@ -194,7 +200,7 @@
           <span class="w3-opacity">pro Stück</span>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> In den Warenkorb</button>
+          <button onclick="send_basket()" class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> In den Warenkorb</button>
         </li>
       </ul>
     </div>
@@ -210,7 +216,7 @@
           <span class="w3-opacity">im zweier Pack</span>
         </li>
         <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> In den Warenkorb</button>
+          <button onclick="send_basket()" class="w3-button w3-teal w3-padding-large"><i class="fa fa-check"></i> In den Warenkorb</button>
         </li>
       </ul>
     </div>
@@ -225,9 +231,9 @@
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Kontaktieren Sie uns</span></div>
       <h3>Addresse</h3>
       <p>Schreiben Sie uns an, wenn Sie fragen haben</p>
-      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  1130 Wien</p>
-      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  0043 1515151515</p>
-      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  gaseaussteckdose@schützen.com</p>
+      <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Eisring Nord 4711, 1130 Wien</p>
+      <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  <a href="tel://00431515151515">0043 151 51 51 515</a></p>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  <a href="mailto:gaseaussteckdose@schützen.com">gaseaussteckdose@schützen.com</a></p>
     </div>
     <div class="w3-col m7">
       <form class="w3-container w3-card-4 w3-padding-16 w3-white" target="_blank">
@@ -257,11 +263,11 @@
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
   <h4>Folge uns</h4>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
-  <a class="w3-button w3-large w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
-  <a class="w3-button w3-large w3-teal w3-hide-small" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://twitter.com/" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i></a>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 
   <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
@@ -274,6 +280,9 @@
 <script>
 function send_submit(){
   alert("Danke für Ihren Kommentar!")
+}
+function send_basket(){
+  alert("Danke für Ihren Bestellung! Sie ist schon auf dem Weg zu Ihnen!")
 }
 // Script for side navigation
 function w3_open() {
