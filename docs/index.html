@@ -19,15 +19,21 @@
 <body id="myPage">
 
 <!-- Sidebar on click -->
-<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xlarge" style="display:none;z-index:2" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
     <i class="fa fa-remove"></i>
   </a>
-  <a href="#" class="w3-bar-item w3-button">Link 1</a>
-  <a href="#" class="w3-bar-item w3-button">Link 2</a>
-  <a href="#" class="w3-bar-item w3-button">Link 3</a>
-  <a href="#" class="w3-bar-item w3-button">Link 4</a>
-  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+  <p>Link Sammlung</p>
+  <a href="https://www.acin.tuwien.ac.at/bachelor/messtechnik/"  target="_blank" class="w3-bar-item w3-button">TU Wien Messtechnik</a>
+  <a href="https://www.univie.ac.at/" target="_blank" class="w3-bar-item w3-button">Uni Wien</a>
+  <a href="https://www.uni-graz.at/de/"  target="_blank" class="w3-bar-item w3-button">Uni Graz</a>
+  <a href="https://www.tuwien.at/studium/studienangebot/masterstudien/technische-physik/"  target="_blank" class="w3-bar-item w3-button">TU Wien Technische Physik</a>
+  <div class="w3-container w3-tiny">
+    <h4>Impressum</h4>
+    <p>Idee: Felix Schweitzer</p>
+    <p>Technische Umsetzung: Andreas Schweitzer</p>
+    <p>&copy; 2022 Schweitzer Productions</p>
+  </div>
 </nav>
 
 <!-- Navbar -->
@@ -52,11 +58,10 @@
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#work" class="w3-bar-item w3-button">Work</a>
-    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
+    <a href="#work" class="w3-bar-item w3-button">Die Gefahr</a>
+    <a href="#team" class="w3-bar-item w3-button">Unser Team</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Unsere Preise</a>
+    <a href="#contact" class="w3-bar-item w3-button">Kontaktiere uns</a>
   </div>
 </div>
 
@@ -64,7 +69,7 @@
 <div class="w3-display-container w3-animate-opacity">
   <img src="images/gasrohrleitungen.jpg" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Steckdosen - Die Gaskammern des 21. Jahrhunders</button>
+    <div onclick="document.getElementById('id01').style.display='block'" class="w3-container w3-xlarge w3-theme w3-hover-teal" title="Unglaublich, aber wahr">Steckdosen - Die Gaskammern des 21. Jahrhunders</div>
   </div>
 </div>
 
@@ -102,8 +107,6 @@
       <h4></h4>
       <p>Parteien mischen gefährliche Gase zusammen</p>
       <p>Diese werden ins Rohrnetzwerk eingeleitet</p>
-      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
-      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </p>
     </div>
   </div>
   </div>
@@ -115,8 +118,6 @@
       <h3>Gase aus Steckdosen</h3>
       <h4>gelangen in öffentliche und private Räume</h4>
       <p>Erhöhte Konzentration des Gases neben Steckdosen</p>
-      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </p>
-      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </p>
     </div>
   </div>
   </div>
@@ -138,36 +139,26 @@
 <div class="w3-container w3-padding-64 w3-center" id="team">
   <h2>Unser Team</h2>
   <p>Unser erfahrenes Team an Experten:</p>
-  
   <div class="w3-row"><br>
-  
-  <div class="w3-third">
-    <img src="images/Forscher_1.jpg" alt="Daniel" style="width:45%" class="w3-circle w3-hover-opacity">
-    <h3>Daniel Kleist</h3>
-    <p>Ingenieur für Luftmessungen</p>
+    <div class="w3-third">
+      <img src="images/Forscher_1.jpg" alt="Daniel" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h3>Daniel Kleist</h3>
+      <p>Ingenieur für Luftmessungen</p>
+    </div>
+    
+    <div class="w3-third">
+      <img src="images/Forscher_2.jpg" alt="Otto" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h3>Otto Becker</h3>
+      <p>Ingenieur für analytische Auswertungen</p>
+    </div>
+    
+    <div class="w3-third">
+      <img src="images/Forscher_3.jpg" alt="Johnny" style="width:45%" class="w3-circle w3-hover-opacity">
+      <h3>Johnny Walker</h3>
+      <p>Ingenieur für Messungen</p>
+    </div>
   </div>
-  
-  <div class="w3-third">
-    <img src="images/Forscher_2.jpg" alt="Otto" style="width:45%" class="w3-circle w3-hover-opacity">
-    <h3>Otto Becker</h3>
-    <p>Ingenieur für analytische Auswertungen</p>
-  </div>
-  
-  <div class="w3-third">
-    <img src="images/Forscher_3.jpg" alt="Johnny" style="width:45%" class="w3-circle w3-hover-opacity">
-    <h3>Johnny Walker</h3>
-    <p>Ingenieur für Messungen</p>
-  </div>
-  
-  </div>
-  </div>
-
-<!-- Container 
-  <div class="w3-container" style="position:relative">
-    <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
-    style="position:absolute;top:-28px;right:24px">+</a>
-  </div>
--->
+</div>
 
 <!-- Pricing Row -->
 <div class="w3-row-padding w3-center w3-padding-64" id="pricing">
@@ -222,13 +213,17 @@
     </div>
 </div>
 
-
+<!-- Seiten Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+  style="position:absolute;top:-28px;right:24px;">+</a>
+</div>
 
 <!-- Contact Container -->
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
   <div class="w3-row">
     <div class="w3-col m5">
-    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Kontaktieren Sie uns</span></div>
+      <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Kontaktieren Sie uns</span></div>
       <h3>Addresse</h3>
       <p>Schreiben Sie uns an, wenn Sie fragen haben</p>
       <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Eisring Nord 4711, 1130 Wien</p>
@@ -239,15 +234,15 @@
       <form class="w3-container w3-card-4 w3-padding-16 w3-white" target="_blank">
       <div class="w3-section">      
         <label>Name</label>
-        <input class="w3-input" type="text" name="Name" required>
+        <input id="name_txt" class="w3-input" type="text" name="Name" required placeholder="Mein Name">
       </div>
       <div class="w3-section">      
         <label>Email</label>
-        <input class="w3-input" type="text" name="Email" required>
+        <input id="email_txt" class="w3-input" type="text" name="Email" required placeholder="mein.name@domain.at">
       </div>
       <div class="w3-section">      
         <label>Nachricht</label>
-        <input class="w3-input" type="text" name="Ihre Nachricht" required>
+        <input id="message_txt" class="w3-input" type="text" name="Ihre Nachricht" required placeholder="Meine Nachricht">
       </div>  
       <input class="w3-check" type="checkbox" checked name="Like">
       <label>Ich liebe es!</label>
@@ -262,50 +257,69 @@
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-  <h4>Folge uns</h4>
-  <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a>
-  <a class="w3-button w3-large w3-teal" href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter"></i></a>
-  <a class="w3-button w3-large w3-teal" href="https://twitter.com/" title="Google +"><i class="fa fa-google-plus"></i></a>
-  <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/" title="Google +"><i class="fa fa-instagram"></i></a>
+  <!--<h4>Folge uns</h4>
+  <a class="w3-button w3-large w3-teal" target="_blank" href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-teal" target="_blank" href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="w3-button w3-large w3-teal" target="_blank" href="https://twitter.com/" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="w3-button w3-large w3-teal" target="_blank" href="https://www.instagram.com/" title="Google +"><i class="fa fa-instagram"></i></a>
   <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.linkedin.com/" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-
-  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-padding w3-teal w3-hide-small">Nach oben</span>   
-    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
+  -->
+  <div class="w3-row">
+   
+    <div class="w3-tooltip w3-left w3-col m2">
+      <img src="images/guetesiegel.png" alt="Trusted Webshop" class="w3-card" style="height: 180px;">
+    </div>
+    
+    <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+      <span class="w3-text w3-padding w3-teal w3-hide-small">Nach oben</span>   
+      <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+        <i class="fa fa-chevron-circle-up"></i></span></a>
+    </div>
+    <div class="w3-container w3-theme-d3 w3-col m10">
+      <p><span class="w3-large"><i class="fa fa-info"></i></span> <span class="w3-tiny">DISCLAIMER: die oben genannten Angaben sind alle frei erfunden!</span></p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      </div>
+    </div>
   </div>
 </footer>
 
 <script>
-function send_submit(){
-  alert("Danke für Ihren Kommentar!")
-}
-function send_basket(){
-  alert("Danke für Ihren Bestellung! Sie ist schon auf dem Weg zu Ihnen!")
-}
-// Script for side navigation
-function w3_open() {
-  var x = document.getElementById("mySidebar");
-  x.style.width = "300px";
-  x.style.paddingTop = "10%";
-  x.style.display = "block";
-}
+  function send_submit(){
+    var name_txt = document.getElementById("name_txt").value;
+    var email_txt = document.getElementById("email_txt").value;
+    var message_txt = document.getElementById("message_txt").value;
+    
+    if (name_txt == "" || email_txt == "" || message_txt == "") {
+      return 0;
+    }
 
-// Close side navigation
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
+    alert("Danke für Ihren Kommentar!")
   }
-}
+  function send_basket(){
+    alert("Danke für Ihre Bestellung! Sie ist schon auf dem Weg zu Ihnen!")
+  }
+  // Script for side navigation
+  function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+  }
+
+  // Close side navigation
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+
+  // Used to toggle the menu on smaller screens when clicking on the menu button
+  function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
 </script>
 
 </body>
