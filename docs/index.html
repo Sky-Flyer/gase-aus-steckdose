@@ -28,12 +28,6 @@
   <a href="https://www.univie.ac.at/" target="_blank" class="w3-bar-item w3-button">Uni Wien</a>
   <a href="https://www.uni-graz.at/de/"  target="_blank" class="w3-bar-item w3-button">Uni Graz</a>
   <a href="https://www.tuwien.at/studium/studienangebot/masterstudien/technische-physik/"  target="_blank" class="w3-bar-item w3-button">TU Wien Technische Physik</a>
-  <div class="w3-container w3-tiny">
-    <h4>Impressum</h4>
-    <p>Idee: Felix Schweitzer</p>
-    <p>Technische Umsetzung: Andreas Schweitzer</p>
-    <p>&copy; 2022 Schweitzer Productions</p>
-  </div>
 </nav>
 
 <!-- Navbar -->
@@ -276,8 +270,9 @@
         <i class="fa fa-chevron-circle-up"></i></span></a>
     </div>
     <div class="w3-container w3-theme-d3 w3-col m10">
-      <p><span class="w3-large"><i class="fa fa-info"></i></span> <span class="w3-tiny">DISCLAIMER: die oben genannten Angaben sind alle frei erfunden!</span></p>
+      <!-- <p><span class="w3-large"><i class="fa fa-info"></i></span> <span class="w3-tiny">DISCLAIMER: die oben genannten Angaben sind alle frei erfunden!</span></p> -->
       <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+      <p>&copy; 2022 alle Recht vorbehalten; alle Angaben ohne Gewähr!</p>
       </div>
     </div>
   </div>
@@ -301,9 +296,15 @@
   // Script for side navigation
   function w3_open() {
     var x = document.getElementById("mySidebar");
-    x.style.width = "300px";
-    x.style.paddingTop = "10%";
-    x.style.display = "block";
+    if ( x.style.display == "none" ){
+      x.style.width = "300px";
+      x.style.paddingTop = "10%";
+      x.style.display = "block";
+    }
+    else {
+      w3_close();
+    }
+    
   }
 
   // Close side navigation
